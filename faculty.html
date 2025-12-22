@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project-01</title>
+  <link rel="stylesheet" href="mehe.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .card {
+      width: 250px;
+      background-color: #ffffff;
+      border: 1px solid #dee2e6;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 3px 10px wheat;
+      padding-bottom: 15px;
+      margin: 20px auto;
+    }
+
+    .card-header {
+      background-color: blueviolet;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 10px;
+      border-radius: 12px 12px 0 0;
+    }
+
+    .card img {
+      width: 80%;
+      height: 240px;
+      border-radius: 10px;
+      margin: 10px 24px;
+    }
+
+    .card h4 {
+      font-size: 14px;
+      margin: 10px 0;
+      color: #333333;
+    }
+
+    .btn {
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 16px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    i.bi.bi {
+      color: rgb(250, 248, 248);
+    }
+
+    i.bi-youtube {
+      color: rgb(244, 247, 244);
+    }
+
+    .btn:hover {
+      background-color: #00b4d8;
+    }
+  </style>
+</head>
+
+
+
+<body>
+  <!-- Header Start Here -->
+  <div class="container-fluid bgc">
+    <div class="row">
+      <div class="col-md-1">
+        <img src="image/Logo.png" class="img-fluid rounded-pill" width="70" alt="">
+      </div>
+      <div class="col-md-11">
+        <h3 class="text-light title">Md Meheraz Hossain</h3>
+        <h3 class="text-light title">Kotbari, Cumilla</h3>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Navber Start Here -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark canva  sticky-top mx-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)"><img src="image/Logo-02.jpg" class="img-fluid rounded-pill"
+          width="50" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <h6>Home</h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">
+              <h6>About us</h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">
+              <h6>Contact us</h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photo-gallery.html">
+              <h6>Photo Gallery</h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="principal.html">
+              <h6>Principal's Message</h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Admission.html">
+              <h6>Admission info</h6>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="privacy-policy.html">
+              <h6>Privacy Policy</h6>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Academic info
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="calender.html">Academic Calender </a></li>
+              <li><a class="dropdown-item" href="departments.html">Depertments</a></li>
+              <li><a class="dropdown-item" href="faculty.html">Faculty Member</a></li>
+              <li><a class="dropdown-item" href="Notice & News.html">Notice & News</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Navber End Here -->
+
+
+
+  <!-- Carousel -->
+  <div class="position">
+    <div id="demo" class="carousel slide banner" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner logo_banner">
+        <div class="carousel-item active">
+          <img src="image/cpi1.jpg" alt="Los Angeles" class="d-block w-100" width="400" height="400">
+        </div>
+        <div class="carousel-item">
+          <img src="image/cpi2.jpg" alt="Chicago" class="d-block w-100" width="400" height="400">
+        </div>
+        <div class="carousel-item">
+          <img src="image/cpi3.jpg" alt="New York" class="d-block w-100" width="400" height="400">
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Carousel end Here -->
+
+    <div class="site_logo">
+      <img src="image/Cumilla Logo.jpeg" width="60" height="60" class="img-fluid rounded-pill" alt="">
+      <h3 class="text-light title">Cumilla Polytechnic Institute,Cumilla </h3>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="margin-top: 20px;">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="faculty-section">
+    <div class="container">
+        <h2 class="section-title">আমাদের সম্মানিত শিক্ষকবৃন্দ</h2>
+        <div class="underline"></div>
+
+        <div class="faculty-grid">
+            <div class="faculty-card">
+                <div class="image-box">
+                    <img src="image/wadud.sir.jpg" alt="Abdul Wadud">
+                </div>
+                <div class="faculty-info">
+                    <h3>Abdul Wadud</h3>
+                    <p class="role">Chief Instructor (1st Shift) & HoD</p>
+                    <p class="dept">Computer Science and Technology</p>
+                    <a href="mailto:engwadudcse@gmail.com" class="email-link">✉️ engwadudcse@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="faculty-card">
+                <div class="image-box">
+                    <img src="image/mahbub.sir.jpg" alt="Mohammed Mahabub Alam">
+                </div>
+                <div class="faculty-info">
+                    <h3>Mohammed Mahabub Alam</h3>
+                    <p class="role">Chief Instructor (2nd Shift) & HoD</p>
+                    <p class="dept">Computer Science and Technology</p>
+                    <a href="mailto:mohammed@couet.edu.bd" class="email-link">✉️ mohammed@couet.edu.bd</a>
+                </div>
+            </div>
+
+            <div class="faculty-card">
+                <div class="image-box">
+                    <img src="image/amin.sir.jpg" alt="Md Aminur Rahman">
+                </div>
+                <div class="faculty-info">
+                    <h3>Md Aminur Rahman</h3>
+                    <p class="role">Instructor (2nd Shift)</p>
+                    <p class="dept">Computer Science and Technology</p>
+                    <a href="mailto:aminur.rahmansedu@gmail.com" class="email-link">✉️ aminur.rahmansedu@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="faculty-card">
+                <div class="image-box">
+                    <img src="image/jahanur.sir.jpg" alt="MD. Jahanur Islam">
+                </div>
+                <div class="faculty-info">
+                    <h3>MD. Jahanur Islam</h3>
+                    <p class="role">Junior Instructor (Tech / Computer)</p>
+                    <p class="dept">2nd Shift, CST</p>
+                    <a href="mailto:jahanurcse96@gmail.com" class="email-link">✉️ jahanurcse96@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="faculty-card">
+                <div class="image-box">
+                    <img src="image/shimul.sir.jpg" alt="Shimul Baishow">
+                </div>
+                <div class="faculty-info">
+                    <h3>Shimul Baishow</h3>
+                    <p class="role">Junior Instructor (Tech/Computer)</p>
+                    <p class="dept">2nd Shift, CST</p>
+                    <a href="mailto:shimulbaishow@gmail.com" class="email-link">✉️ shimulbaishow@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="faculty-card">
+                <div class="image-box">
+                    <img src="image/kamal.sir.jpg" alt="Md. Kamal Hossen">
+                </div>
+                <div class="faculty-info">
+                    <h3>Md. Kamal Hossen</h3>
+                    <p class="role">Junior Instructor (Tech/Computer)</p>
+                    <p class="dept">1st Shift, CST</p>
+                    <a href="mailto:jhkamal94@gmail.com" class="email-link">✉️ jhkamal94@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+
+                    <style>
+    .faculty-section {
+        padding: 60px 20px;
+        background-color: #f9f9f9;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .section-title {
+        text-align: center;
+        color: #006a4e;
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .underline {
+        width: 400px;
+        height: 4px;
+        background: #ff4757;
+        margin: 0 auto 40px;
+        border-radius: 2px;
+    }
+
+    .faculty-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .faculty-card {
+        background: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+        border: 1px solid #eee;
+    }
+
+    .faculty-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .image-box {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        background: #f0f0f0;
+    }
+
+    .image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* ছবি যেন ফেটে না যায় বা চ্যাপ্টা না হয় */
+        transition: transform 0.5s ease;
+    }
+
+    .faculty-card:hover .image-box img {
+        transform: scale(1.1);
+    }
+
+    .faculty-info {
+        padding: 20px;
+    }
+
+    .faculty-info h3 {
+        margin: 0 0 10px;
+        font-size: 20px;
+        color: #2d3436;
+    }
+
+    .role {
+        color: #006a4e;
+        font-weight: bold;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .dept {
+        color: #636e72;
+        font-size: 13px;
+        margin: 5px 0 15px;
+    }
+
+    .email-link {
+        display: inline-block;
+        color: #007bff;
+        text-decoration: none;
+        font-size: 13px;
+        border-top: 1px solid #eee;
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .email-link:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+    /* মোবাইল স্ক্রিনের জন্য */
+    @media (max-width: 600px) {
+        .faculty-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+  <!-- Footer Start Here -->
+  <div class="container-fluid bg-dark text-light">
+    <div class="row">
+      <div style="margin-top: 15px;" class="col-md-3">
+        © 2025 Md Meheraz Hossain
+        <div>All Right Reserved.</div>
+      </div>
+      <div style="margin-top: 15px;" class="col-md-3">
+        <h4>Footer Menu</h4>
+        <ul>
+
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="photo-gallery.html">Gallary</a></li>
+        </ul>
+      </div>
+      <div style="margin-top: 15px;" class="col-md-3">
+        <h4>Institute Address</h4>
+        <p><i class="bi bi-geo-alt"></i>Kotbari, Cumilla</p>
+        <p><i class="bi bi-envelope-arrow-up"></i>meheraz3032@gmail.com</p>
+      </div>
+      <div style="margin-top: 15px;" class="col-md-3">
+
+        <h4>Social Links</h4>
+
+        <a href="https://www.facebook.com/me/" target="_blank" class="btn btn-success">
+          <i class="bi bi-facebook"></i> Follow us</a>
+
+        <a href="https://wa.me/+8801747613278" target="_blank" class="btn btn-success">
+          <i class="bi bi-whatsapp"></i> Chat on WhatsApp</a>
+
+        <a href="https://www.linkedin.com/in/mehe-raz-795b04396/" target="_blank" class="btn btn-success">
+          <i class="bi bi-linkedin"></i> Chat on bi-linkedin</a>
+
+        <a style="margin-top: 10px;" href="https://www.instagram.com/meheraz_hossan_30/?__pwa=1#" target="_blank"
+          class="btn btn-success">
+          <i class="bi bi-instagram"></i> Follow us</a>
+
+        <a href="https://www.youtube.com/@Md.MeherazHossain-30" target="_blank" class="btn btn-success">
+          <i class="bi bi-youtube"></i> youtube</a>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
